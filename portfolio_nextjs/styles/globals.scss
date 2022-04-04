@@ -39,7 +39,7 @@ nav {
 
 .content-container {
   background-color: rgb(132, 189, 182);
-  height: 100vh;
+  height: 100%;
 }
 
 .content {
@@ -56,16 +56,23 @@ nav {
 }
 
 .project {
-  background-color: pink;
+  background-color: rgb(98, 187, 228);
   display: flex;
   width: 80vw;
   padding: 1rem 10vw ;
   margin: 0 auto;
   text-align: center;
+  align-items: top;
 
   h3, h4{
     text-decoration: underline;
   }
+}
+
+.image-container{
+  width: 100%;
+  position: relative;
+  margin-left: 1rem;
 }
 
 footer {

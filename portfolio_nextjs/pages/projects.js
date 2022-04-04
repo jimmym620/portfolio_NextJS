@@ -1,4 +1,5 @@
 import projects from "../data/projects.json";
+import Image from "next/image";
 
 const Projects = () => {
     return (
@@ -6,7 +7,8 @@ const Projects = () => {
             <div className="content">
                 <h1>Here are my completed projects</h1>
                 {projects.map((project, index) => {
-                    const { id, title, gitLink, link, tag, desc } = project;
+                    const { id, title, gitLink, link, image, tag, desc } =
+                        project;
                     return (
                         <article key={id} className="project">
                             <div>
@@ -36,6 +38,16 @@ const Projects = () => {
                                 </ul>
 
                                 <p className="w-1/2 mx-auto md:mx-0">{desc}</p>
+                            </div>
+                            <div className="image-container">
+                                {image != "" && (
+                                    <Image
+                                        src={image}
+                                        layout="intrinsic"
+                                        width={1369 / 3}
+                                        height={947 / 3}
+                                    />
+                                )}
                             </div>
                         </article>
                     );
