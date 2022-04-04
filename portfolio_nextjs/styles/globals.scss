@@ -20,6 +20,9 @@ a {
 }
 
 .layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
 }
 
@@ -38,21 +41,27 @@ nav {
 }
 
 .content-container {
-  background-color: rgb(132, 189, 182);
-  height: 100%;
+  // background-color: rgb(132, 189, 182);
+  min-height: 90vh;
 }
 
 .content {
-  width: 90vw;
+    background-color: rgb(132, 189, 182);
+  width: 100vw;
   margin: 0 auto;
   padding: 4rem 0;
   text-align: center;
+  position: relative;
 
   p{
     padding: 1rem 0;
     width: 20vw;
     margin: 0 auto;
   }
+}
+
+.project-list {
+  margin-top: 1rem;;
 }
 
 .project {
@@ -76,14 +85,13 @@ nav {
 }
 
 footer {
-    margin-top: 0rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
     padding: 0.5rem .5rem;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     left: 0;
+    bottom: 0;
     width: 100%;
     text-align: center;
     color: rgb(23, 23, 23);

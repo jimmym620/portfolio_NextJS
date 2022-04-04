@@ -47,9 +47,9 @@
     {
         "id": 6,
         "title": "This portfolio",
-        "gitLink": "https://github.com/jimmym620/portfolio_REACT",
+        "gitLink": "https://github.com/jimmym620/portfolio_NextJS",
         "image": "",
         "tag": ["React", " TailwindCSS" ],
-        "desc": "Though not finished, this portfolio was made using React-Router and Tailwind CSS."
+        "desc": "Though not finished, this portfolio was made using Next.js and SASS, I plan to update this portfolio as I go through my web development journey."
     }
 ]
