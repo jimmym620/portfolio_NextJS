@@ -44,8 +44,8 @@ const Projects = () => {
                                     <Image
                                         src={image}
                                         layout="intrinsic"
-                                        width={1369 / 3}
-                                        height={947 / 3}
+                                        width={1369 / 4}
+                                        height={947 / 4}
                                     />
                                 )}
                             </div>
