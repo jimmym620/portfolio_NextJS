@@ -38,3 +38,5 @@ const TechStack = () => {
 };
 
 export default TechStack;
+
+// https://devicon.dev/ for the icons
