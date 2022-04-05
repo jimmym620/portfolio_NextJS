@@ -1,4 +1,6 @@
 import Image from "next/image";
+import TechStack from "../components/TechStack";
+
 export default function Home() {
     return (
         <div className="content-container">
@@ -12,6 +14,7 @@ export default function Home() {
                 </p>
 
                 <h2>Current tech stack:</h2>
+                <TechStack />
             </div>
         </div>
     );
