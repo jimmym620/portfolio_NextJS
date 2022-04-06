@@ -22,7 +22,7 @@ const Projects = () => {
                                             {title}
                                         </a>
                                     </h3>
-                                    <h4 className="text-center m-0">
+                                    <h4>
                                         <a
                                             href={gitLink}
                                             target="_blank"
@@ -33,11 +33,11 @@ const Projects = () => {
                                     </h4>
                                 </div>
 
-                                <ul className="bg-slate-300 w-1/2 py-1 pl-1 text-center">
+                                <ul>
                                     {tag + " "}
                                 </ul>
 
-                                <p className="w-1/2 mx-auto md:mx-0">{desc}</p>
+                                <p>{desc}</p>
                             </div>
                             <div className="image-container">
                                 {image != "" && (
