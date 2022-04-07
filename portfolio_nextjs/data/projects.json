@@ -14,7 +14,7 @@
         "gitLink": "https://github.com/jimmym620/MenuPage_REACT",
         "link": "https://jimmym620-restaurant-menu.netlify.app/",
         "image": "/project-images/menu_project.png",
-        "tag": ["React", " NextJS", " SASS"],
+        "tag": ["React", " Next.js", " SASS"],
         "desc": "A Restaurant menu application made with NextJS, the dish data is stored in JSON and can be conditionally rendered using react components."
     },
     {
@@ -49,7 +49,7 @@
         "title": "This portfolio",
         "gitLink": "https://github.com/jimmym620/portfolio_NextJS",
         "image": "",
-        "tag": ["React", " TailwindCSS" ],
+        "tag": ["Next.js", "SASS" ],
         "desc": "Though not finished, this portfolio was made using Next.js and SASS, I plan to update this portfolio as I go through my web development journey."
     }
 ]

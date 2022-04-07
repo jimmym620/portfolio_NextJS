@@ -38,6 +38,9 @@ nav {
     font-size: 1.5rem;
     margin-right: 3rem;
   }
+  #nav-tog-btn{
+    display: none;
+  }
 }
 
 .content-container {
@@ -82,7 +85,7 @@ nav {
   padding: 1rem 10vw ;
   margin: 0 auto;
   text-align: center;
-  align-items: top;
+  align-items: center;
   .desc {
     width: 50%;
     margin: 0 auto;
@@ -162,7 +165,7 @@ background: radial-gradient(circle farthest-corner at center center, #3C5ECF 0%,
     }
     #nav-tog-btn{
       margin: 0 auto;
-      display: flex;
+      display: block;
       align-self: center;
       right: 0;
       top: 0;
