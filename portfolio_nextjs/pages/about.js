@@ -6,9 +6,15 @@ const About = () => {
 
                 <p>
                     Graduated from Heriot-Watt University in BSc Computer
-                    Science last year (2021).
+                    Science in 2021.
                 </p>
-                <p>Over the last several months, I have been learning JavaScript and React, this portfolio showcases some of what I have learned so far. My goal is to become a full stack developer and I will be keeping track of my progress on this site.</p>
+                <p>
+                    Since then, I have been learning general Web Dev
+                    technologies, especially JavaScript and React, this
+                    portfolio showcases some of what I have learned so far. My
+                    goal is to become a full stack developer and I will be
+                    keeping track of my progress on this site.
+                </p>
             </div>
         </div>
     );

@@ -51,5 +51,15 @@
         "image": "",
         "tag": ["Next.js", "SASS" ],
         "desc": "Though not finished, this portfolio was made using Next.js and SASS, I plan to update this portfolio as I go through my web development journey."
+    },
+    {
+        "id": 7,
+        "title": "To do list with MongoDB back-end",
+        "gitLink": "https://github.com/jimmym620/todolist_with_mongo",
+        "link": "https://todolistcmjm.cyclic.app/",
+        "image": "/project-images/todolist.png",
+        "tag": ["EJS", "Express.js", "MongoDB", "Mongoose" ],
+        "desc": "To do list app from 'The Complete 2023 Web Development Bootcamp', database is hosted using MongoDB Atlas and the Express.js app on Cyclic"
     }
+    
 ]
