@@ -9,11 +9,11 @@ const About = () => {
                     Science in 2021.
                 </p>
                 <p>
-                    Since then, I have been learning general Web Dev
-                    technologies, especially JavaScript and React, this
-                    portfolio showcases some of what I have learned so far. My
-                    goal is to become a full stack developer and I will be
-                    keeping track of my progress on this site.
+                    I have been learning Web Dev technologies online, especially
+                    JavaScript and React, this portfolio showcases some of what
+                    I have learned so far. My goal is to become a full stack
+                    developer and I will be keeping track of my progress on this
+                    site.
                 </p>
             </div>
         </div>

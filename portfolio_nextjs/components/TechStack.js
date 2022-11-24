@@ -33,6 +33,15 @@ const TechStack = () => {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
                 title="GitHub"
             />
+            <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+                title="Express.js"
+            />
+
+            <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+                title="MongoDB"
+            />
         </section>
     );
 };
