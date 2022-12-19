@@ -24,7 +24,7 @@
         "link": "https://jimmym620-weather-checker.netlify.app/",
         "image": "/project-images/weather_checker.png",
         "tag": ["React", " CSS"," API"],
-        "desc": "This project was made using the Weather API which gave access to weather statistics for the current day."
+        "desc": "This project uses a React.js page and calls the Weather API to display the current weather for a given location."
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "link": "https://jimmym620.github.io/GoogleSearchPage/",
         "image": "/project-images/foogle.png",
         "tag": ["HTML", " CSS"],
-        "desc": "This was one of my first projects where I learned to replicate a landing page with CSS."
+        "desc": "This was one of my first projects where I practiced my CSS skills by replicating a responsive page."
     },
     {
         "id": 5,
@@ -53,13 +53,22 @@
         "tag": ["EJS", "Express.js", "MongoDB", "Mongoose" ],
         "desc": "To do list app from 'The Complete 2023 Web Development Bootcamp', database is hosted using MongoDB Atlas and the Express.js app on Cyclic"
     },
-    {
+        {
         "id": 7,
+        "title": "Hotel Room Review Full-Stack [Not hosted yet]",
+        "gitLink": "https://github.com/jimmym620/RoomReview",
+        "link": "",
+        "image": "/project-images/room-review.png",
+        "tag": [ "Next.js", "Next-Auth", "Mongoose", "MongoDB Atlas", "Bootstrap" ],
+        "desc": "This is the first full-stack project I have taken on. This project taught me how to efficiently configure routes and APIs, as well as using asynchronous functions to retrieve data to the user. Users can login to post reviews, where they can be liked by other users, these reviews can also be deleted or edited through the author's dashboard."
+    },
+    {
+        "id": 8,
         "title": "This portfolio",
         "gitLink": "https://github.com/jimmym620/portfolio_NextJS",
         "image": "",
         "tag": ["Next.js", "SASS" ],
-        "desc": "Though not finished, this portfolio was made using Next.js and SASS, I plan to update this portfolio as I go through my web development journey."
+        "desc": "This portfolio was made using Next.js and SASS, I plan to update this portfolio as I go through my web development journey."
     }
 
     

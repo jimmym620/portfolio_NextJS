@@ -24,6 +24,7 @@ const Projects = () => {
                                     </h3>
                                     <h4>
                                         <a
+                                            id="gitLink"
                                             href={gitLink}
                                             target="_blank"
                                             rel="noreferrer"
@@ -33,9 +34,7 @@ const Projects = () => {
                                     </h4>
                                 </div>
 
-                                <ul>
-                                    {tag + " "}
-                                </ul>
+                                <ul>{tag + ` `}</ul>
 
                                 <p>{desc}</p>
                             </div>
