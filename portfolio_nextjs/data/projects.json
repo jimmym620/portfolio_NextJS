@@ -55,12 +55,12 @@
     },
         {
         "id": 7,
-        "title": "Hotel Room Review Full-Stack [Not hosted yet]",
+        "title": "Hotel Room Review Full-Stack",
         "gitLink": "https://github.com/jimmym620/RoomReview",
-        "link": "",
+        "link": "https://room-review.vercel.app",
         "image": "/project-images/room-review.png",
         "tag": [ "Next.js", "Next-Auth", "Mongoose", "MongoDB Atlas", "Bootstrap" ],
-        "desc": "This is the first full-stack project I have taken on. This project taught me how to efficiently configure routes and APIs, as well as using asynchronous functions to retrieve data to the user. Users can login to post reviews, where they can be liked by other users, these reviews can also be deleted or edited through the author's dashboard."
+        "desc": "This is the first full-stack project I have taken on. This project taught me how to efficiently configure routes and APIs, as well as using asynchronous functions to retrieve data to the user. Users can login (using their Google account, or any potential provider) to post reviews, where they can be liked by other users, these reviews can also be deleted or edited through the author's dashboard. Hosted on Vercel."
     },
     {
         "id": 8,
