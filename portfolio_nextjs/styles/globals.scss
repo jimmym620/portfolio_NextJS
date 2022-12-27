@@ -76,7 +76,7 @@ a {
     border-radius: 1rem;
     margin: 0 auto;
     margin-top: 1rem;
-    width: 80%;
+    width: 80vw;
 }
 
 .project {
@@ -115,11 +115,13 @@ a {
 }
 
 .image-container {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     margin-left: 1rem;
     .image {
-        height: 60vh;
+        width: 100%;
     }
 }
 
