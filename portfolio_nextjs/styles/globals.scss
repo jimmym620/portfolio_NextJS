@@ -27,7 +27,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100vw;
     .header {
         background-color: $color-secondary;
         padding: 1rem 10rem;
@@ -75,24 +74,35 @@ a {
 .project-list {
     padding: 2rem 0;
     border-radius: 1rem;
-    width: 90vw;
     margin: 0 auto;
     margin-top: 1rem;
+    width: 80%;
 }
 
 .project {
-    display: flex;
-    width: 90vw;
     padding: 1rem 8vw;
+
     margin: 0 auto;
     text-align: center;
     align-items: center;
+    .accordion-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .desc {
         width: 50%;
         margin: 0 auto;
+        justify-content: center;
+    }
+    .accordion-button {
+        display: flex;
+        gap: 1rem;
+
+        justify-content: space-between;
     }
 
-    h3,
     h4 {
         text-decoration: underline;
     }
@@ -105,9 +115,12 @@ a {
 }
 
 .image-container {
-    width: 100%;
+    width: 80%;
     position: relative;
     margin-left: 1rem;
+    .image {
+        height: 60vh;
+    }
 }
 
 .tech-stack-container {

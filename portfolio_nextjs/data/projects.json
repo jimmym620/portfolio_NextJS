@@ -67,7 +67,7 @@
         "title": "This portfolio",
         "gitLink": "https://github.com/jimmym620/portfolio_NextJS",
         "image": "",
-        "tag": ["Next.js", "SASS" ],
+        "tag": ["Next.js", "SASS", "Bootstrap" ],
         "desc": "This portfolio was made using Next.js and SASS, I plan to update this portfolio as I go through my web development journey."
     }
 

@@ -1,5 +1,6 @@
 import projects from "../data/projects.json";
 import Image from "next/image";
+import Accordion from "react-bootstrap/Accordion";
 
 const Projects = () => {
     return (
@@ -10,51 +11,50 @@ const Projects = () => {
                     const { id, title, gitLink, link, image, tag, desc } =
                         project;
                     return (
-                        <article key={id} className="project">
-                            <div className="desc">
-                                <div className="project-title">
-                                    <h3>
-                                        <a
-                                            href={link}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            {title}
-                                        </a>
-                                    </h3>
-                                    <h4>
-                                        <a
-                                            id="gitLink"
-                                            href={gitLink}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            GitHub Repo
-                                        </a>
-                                    </h4>
-                                </div>
-
-                                <ul>{tag + ` `}</ul>
-
-                                <p>{desc}</p>
-                            </div>
-                            <div className="image-container">
-                                {image != "" && (
+                        <Accordion>
+                            <Accordion.Item eventKey={id} className="project">
+                                <Accordion.Header>
                                     <a
                                         href={link}
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        <Image
-                                            src={image}
-                                            layout="intrinsic"
-                                            width={1369 / 4}
-                                            height={947 / 4}
-                                        />
+                                        {title}
+                                    </a>{" "}
+                                    <a
+                                        id="gitLink"
+                                        href={gitLink}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        GitHub Repo
                                     </a>
-                                )}
-                            </div>
-                        </article>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                    <div className="accordion-body">
+                                        <div className="desc">
+                                            <ul>{tag + ` `}</ul>
+
+                                            <p>{desc}</p>
+                                        </div>
+                                        <div className="image-container">
+                                            {image != "" && (
+                                                <a
+                                                    href={link}
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                >
+                                                    <img
+                                                        src={image}
+                                                        className="image"
+                                                    />
+                                                </a>
+                                            )}
+                                        </div>
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                        </Accordion>
                     );
                 })}
             </div>
