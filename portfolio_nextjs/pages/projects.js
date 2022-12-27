@@ -11,7 +11,7 @@ const Projects = () => {
                     const { id, title, gitLink, link, image, tag, desc } =
                         project;
                     return (
-                        <Accordion>
+                        <Accordion key={id}>
                             <Accordion.Item eventKey={id} className="project">
                                 <Accordion.Header>
                                     <a
