@@ -1,6 +1,6 @@
 const TechStack = () => {
     return (
-        <section className="lang-icon-container">
+        <section className="tech-stack-container">
             <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                 title="JavaScript"
@@ -41,6 +41,16 @@ const TechStack = () => {
             <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
                 title="MongoDB"
+            />
+
+            <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                title="NodeJS"
+            />
+
+            <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+                title="Bootstrap"
             />
         </section>
     );

@@ -8,8 +8,8 @@ export default function Home() {
                 <h1 className="gradient-text">Hi!</h1>
                 <p className="gradient-text">
                     A Computer Science graduate looking to join the world of web
-                    development. Currently looking for work in a graduate or
-                    junior role.
+                    development. Currently looking for a graduate or junior
+                    role.
                 </p>
 
                 <h2>Current tech stack:</h2>

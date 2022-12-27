@@ -1,41 +1,27 @@
 import Link from "next/link";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import { CgMenu } from "react-icons/cg";
 
-const Navbar = () => {
-    const toggleNav = () => {
-        let x = document.getElementById("navLinks");
-        let heading = document.getElementById("nameHeading");
-        console.log(x);
-        if (x.style.display === "flex") {
-            x.style.display = "none";
-            heading.style.display = "block";
-        } else {
-            x.style.display = "flex";
-            heading.style.display = "none";
-        }
-    };
+const NavigationBar = () => {
     return (
-        <nav>
-            <div id="navLinks">
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
-                <Link href="/projects">
-                    <a>Projects</a>
-                </Link>
-                <Link href="/about">
-                    <a>About</a>
-                </Link>
-                <Link href="/contact">
-                    <a>Contact</a>
-                </Link>
-            </div>
-
-            <a id="nav-tog-btn" onClick={toggleNav}>
-                <CgMenu />
-            </a>
-        </nav>
+        <Navbar collapseOnSelect expand="lg" variant="light">
+            <Container>
+                <Navbar.Brand href="#home">Chun Ming Jimmy Man</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/contact">Contact me</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 
-export default Navbar;
+export default NavigationBar;
