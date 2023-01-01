@@ -5,7 +5,7 @@
         "gitLink": "https://github.com/jimmym620/media_collection_REACT",
         "link": "https://jimmym620-media-collection.netlify.app/",
        "image": "/project-images/media_crud.png",
-        "tag": ["React", " TailwindCSS "],
+        "tag": ["React", "TailwindCSS"],
         "desc": "A CRUD application used to store entries about a users media library/collection (i.e, books, movies, music). Made with React, Tailwind and localStorage."
     },
     {
@@ -14,7 +14,7 @@
         "gitLink": "https://github.com/jimmym620/MenuPage_REACT",
         "link": "https://jimmym620-restaurant-menu.netlify.app/",
         "image": "/project-images/menu_project.png",
-        "tag": ["React", " Next.js", " SASS"],
+        "tag": ["React", "Next.js", "SASS"],
         "desc": "A Restaurant menu application made with NextJS, the dish data is stored in JSON and can be conditionally rendered using react components."
     },
     {
@@ -23,7 +23,7 @@
         "gitLink": "https://github.com/jimmym620/weather_app",
         "link": "https://jimmym620-weather-checker.netlify.app/",
         "image": "/project-images/weather_checker.png",
-        "tag": ["React", " CSS"," API"],
+        "tag": ["React", "CSS","API"],
         "desc": "This project uses a React.js page and calls the Weather API to display the current weather for a given location."
     },
     {
@@ -32,7 +32,7 @@
         "gitLink": "https://github.com/jimmym620/GoogleSearchPage",
         "link": "https://jimmym620.github.io/GoogleSearchPage/",
         "image": "/project-images/foogle.png",
-        "tag": ["HTML", " CSS"],
+        "tag": ["HTML", "CSS"],
         "desc": "This was one of my first projects where I practiced my CSS skills by replicating a responsive page."
     },
     {
@@ -41,7 +41,7 @@
         "gitLink": "https://github.com/jimmym620/Mint.com_Signup_Clone",
         "link": "https://jimmym620.github.io/Mint.com_Signup_Clone/",
         "image": "/project-images/mint_signup.png",
-        "tag": ["HTML", " CSS"],
+        "tag": ["HTML", "CSS"],
         "desc": "Another vanilla CSS replication project - a sign up form for creating a new account."
     },   
     {

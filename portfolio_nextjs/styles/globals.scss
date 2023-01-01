@@ -79,28 +79,27 @@ a {
     width: 80vw;
 }
 
-.project {
+.accordion-item {
     padding: 1rem 8vw;
-
     margin: 0 auto;
-    text-align: center;
-    align-items: center;
+
+    .accordion-header {
+        width: 100%;
+        .accordion-button {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
     .accordion-body {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .desc {
-        width: 50%;
-        margin: 0 auto;
-        justify-content: center;
-    }
-    .accordion-button {
-        display: flex;
-        gap: 1rem;
-
-        justify-content: space-between;
+        .desc {
+            width: 50%;
+            margin: 0 auto;
+            justify-content: center;
+        }
     }
 
     h4 {

@@ -33,7 +33,7 @@ const Projects = () => {
                                 <Accordion.Body>
                                     <div className="accordion-body">
                                         <div className="desc">
-                                            <ul>{tag + ` `}</ul>
+                                            <ul>Tags: {tag.join(", ")}</ul>
 
                                             <p>{desc}</p>
                                         </div>
