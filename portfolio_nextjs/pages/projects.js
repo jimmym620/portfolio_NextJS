@@ -12,7 +12,10 @@ const Projects = () => {
                         project;
                     return (
                         <Accordion key={id}>
-                            <Accordion.Item eventKey={id} className="project">
+                            <Accordion.Item
+                                eventKey={id}
+                                className="project bigner"
+                            >
                                 <Accordion.Header>
                                     <a
                                         href={link}

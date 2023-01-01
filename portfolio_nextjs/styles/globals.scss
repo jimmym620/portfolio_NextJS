@@ -1,5 +1,7 @@
-$color-main: rgb(132, 189, 182);
-$color-secondary: rgb(65, 158, 147);
+// $color-main: rgb(132, 189, 182);
+// $color-secondary: rgb(65, 158, 147);
+$color-main: rgb(42, 42, 42);
+$color-secondary: rgb(33, 171, 189);
 
 html,
 body {
@@ -8,12 +10,12 @@ body {
     height: 100vh;
     margin: 0;
     overflow-x: hidden;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-    color: inherit;
     text-decoration: none;
 }
 
@@ -44,8 +46,8 @@ a {
 
 .content-container {
     // width: 100vw;
-    text-align: center;
     background-color: $color-main;
+    text-align: center;
     .content {
         display: flex;
         flex-direction: column;
@@ -55,7 +57,7 @@ a {
 
 .content {
     background-color: $color-main;
-    // background: rgb(122, 196, 134);
+    color: $color-secondary;
     // background: radial-gradient(circle, rgba(122, 196, 134, 1) 28%, rgba(0, 158, 146, 1) 47%);
 
     margin: 0 auto;
@@ -82,6 +84,7 @@ a {
 .accordion-item {
     padding: 1rem 8vw;
     margin: 0 auto;
+    background-color: $color-main;
 
     .accordion-header {
         width: 100%;
@@ -111,6 +114,11 @@ a {
     ul {
         font-style: italic;
     }
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #feb7ee;
 }
 
 .image-container {
