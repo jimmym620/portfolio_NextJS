@@ -81,6 +81,10 @@ a {
     width: 80vw;
 }
 
+.contact-container {
+    background-color: rgb(68, 68, 68);
+}
+
 .accordion-item {
     padding: 1rem 8vw;
     margin: 0 auto;
@@ -114,11 +118,6 @@ a {
     ul {
         font-style: italic;
     }
-}
-
-.accordion-button:not(.collapsed) {
-    color: #0c63e4;
-    background-color: #feb7ee;
 }
 
 .image-container {

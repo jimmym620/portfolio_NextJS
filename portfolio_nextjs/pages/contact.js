@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 const Contact = () => {
     return (
         <div className="content-container">
-            <div className="content">
+            <div className="content contact-container">
                 <h1>Connect with me</h1>
                 <div className="icon-container">
                     <SocialIcon

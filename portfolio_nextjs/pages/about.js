@@ -12,8 +12,8 @@ const About = () => {
                     After learning Web Dev technologies online, I have been
                     working on projects to test my knowledge and show off what I
                     have learned in this portfolio. My goal is to become a
-                    developer/software engineer and I will be keeping track of
-                    my progress and experience on this site.
+                    software engineer and I will be keeping track of my progress
+                    and experience on this site.
                 </p>
             </div>
         </div>
