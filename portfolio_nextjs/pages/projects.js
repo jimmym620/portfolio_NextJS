@@ -16,7 +16,10 @@ const Projects = () => {
                         project;
                     return (
                         <Accordion key={id}>
-                            <Accordion.Item eventKey={id} className="project">
+                            <Accordion.Item
+                                eventKey={id}
+                                className="project animate__animated animate__rollIn"
+                            >
                                 <Accordion.Header>
                                     <a
                                         href={link}

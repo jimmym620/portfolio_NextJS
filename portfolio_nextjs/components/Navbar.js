@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { useState } from "react";
 
 const NavigationBar = () => {
-    const [active, setActive] = useState("/");
+    const [active, setActive] = useState("");
     return (
         <Navbar collapseOnSelect expand="lg" variant="light">
             <Container>
