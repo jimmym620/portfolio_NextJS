@@ -1,9 +1,9 @@
-import Image from "next/image";
+import "animate.css";
 import TechStack from "../components/TechStack";
 
 export default function Home() {
     return (
-        <div className="content-container">
+        <div className="content-container animate__animated animate__zoomIn">
             <div className="content">
                 <h1 className="gradient-text">Hi!</h1>
                 <p className="gradient-text">

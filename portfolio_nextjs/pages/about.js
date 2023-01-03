@@ -1,6 +1,8 @@
+import "animate.css";
+
 const About = () => {
     return (
-        <div className="content-container">
+        <div className="content-container animate__animated animate__slideInUp">
             <div className="content">
                 <h1>A little about me</h1>
 

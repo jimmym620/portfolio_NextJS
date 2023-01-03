@@ -1,8 +1,9 @@
 import { SocialIcon } from "react-social-icons";
+import "animate.css";
 
 const Contact = () => {
     return (
-        <div className="content-container">
+        <div className="content-container animate__animated animate__slideInUp">
             <div className="content contact-container">
                 <h1>Connect with me</h1>
                 <div className="icon-container">

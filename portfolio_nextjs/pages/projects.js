@@ -1,10 +1,10 @@
 import projects from "../data/projects.json";
-import Image from "next/image";
 import Accordion from "react-bootstrap/Accordion";
+import "animate.css";
 
 const Projects = () => {
     return (
-        <div className="content-container">
+        <div className="content-container animate__animated animate__slideInUp ">
             <h1 className="gradient-text">My projects</h1>
             <p>
                 Click the project names or images to view the hosted version of
