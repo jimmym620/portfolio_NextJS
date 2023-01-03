@@ -1,16 +1,19 @@
 [
     {
         "id": 1,
-        "title": "Media Library",
-        "type": "frontend",
-        "gitLink": "https://github.com/jimmym620/media_collection_REACT",
-        "link": "https://jimmym620-media-collection.netlify.app/",
-        "image": "/project-images/media_crud.png",
+        "title": "Hotel Room Review Full-Stack",
+        "type": "full-stack",
+        "gitLink": "https://github.com/jimmym620/RoomReview",
+        "link": "https://room-review.vercel.app",
+        "image": "/project-images/room-review.png",
         "tag": [
-            "React",
-            "TailwindCSS"
+            "Next.js",
+            "Next-Auth",
+            "Mongoose",
+            "MongoDB Atlas",
+            "Bootstrap"
         ],
-        "desc": "A CRUD application used to store entries about a users media library/collection (i.e, books, movies, music). Made with React, Tailwind and localStorage."
+        "desc": "The first full-stack project I have worked on. This project taught me how to efficiently configure routes and APIs, as well as using asynchronous functions to fetch data to the user. Users can login (using their Google account, or any potential provider through Next-Auth) to post reviews, where they can be liked by other users, these reviews can also be deleted or edited through the author's dashboard. Hosted on Vercel."
     },
     {
         "id": 2,
@@ -24,7 +27,7 @@
             "Next.js",
             "SASS"
         ],
-        "desc": "A Restaurant menu application made with NextJS, the dish data is stored in JSON and can be conditionally rendered using react components."
+        "desc": "A Front-end restaurant menu application made with NextJS, the dish data is stored in JSON and can be conditionally rendered using react components. This was my first project using NextJS."
     },
     {
         "id": 3,
@@ -36,9 +39,9 @@
         "tag": [
             "React",
             "CSS",
-            "API"
+            "Learning to use APIs"
         ],
-        "desc": "This project uses a React.js page and calls the Weather API to display the current weather for a given location."
+        "desc": "Front-end project using React.js, data from the Weather API is fetched to display the current weather for a given location."
     },
     {
         "id": 4,
@@ -51,7 +54,7 @@
             "HTML",
             "CSS"
         ],
-        "desc": "This was one of my first projects where I practiced my CSS skills by replicating a responsive page."
+        "desc": "This was one of the projects where I practiced my CSS skills by replicating a responsive Google search page."
     },
     {
         "id": 5,
@@ -68,7 +71,7 @@
     },
     {
         "id": 6,
-        "title": "To do list with MongoDB back-end",
+        "title": "To do list Full-Stack",
         "type": "full-stack",
         "gitLink": "https://github.com/jimmym620/todolist_with_mongo",
         "link": "https://todolistcmjm.cyclic.app/",
@@ -79,23 +82,20 @@
             "MongoDB",
             "Mongoose"
         ],
-        "desc": "To do list app from 'The Complete 2023 Web Development Bootcamp', database is hosted using MongoDB Atlas and the Express.js app on Cyclic"
+        "desc": "To do list app from 'The Complete 2023 Web Development Bootcamp', database is hosted using MongoDB Atlas and the Express.js app hosted on Cyclic"
     },
     {
         "id": 7,
-        "title": "Hotel Room Review Full-Stack",
-        "type": "full-stack",
-        "gitLink": "https://github.com/jimmym620/RoomReview",
-        "link": "https://room-review.vercel.app",
-        "image": "/project-images/room-review.png",
+        "title": "Media Library",
+        "type": "frontend",
+        "gitLink": "https://github.com/jimmym620/media_collection_REACT",
+        "link": "https://jimmym620-media-collection.netlify.app/",
+        "image": "/project-images/media_crud.png",
         "tag": [
-            "Next.js",
-            "Next-Auth",
-            "Mongoose",
-            "MongoDB Atlas",
-            "Bootstrap"
+            "Learning React",
+            "TailwindCSS"
         ],
-        "desc": "This is the first full-stack project I have taken on. This project taught me how to efficiently configure routes and APIs, as well as using asynchronous functions to retrieve data to the user. Users can login (using their Google account, or any potential provider) to post reviews, where they can be liked by other users, these reviews can also be deleted or edited through the author's dashboard. Hosted on Vercel."
+        "desc": "A CRUD Front-end which stores entries about a user's media library/collection (i.e, books, movies, music). Made with React, Tailwind and localStorage."
     },
     {
         "id": 8,

@@ -48,6 +48,9 @@ a {
     // width: 100vw;
     background-color: $color-main;
     text-align: center;
+    p {
+        color: white;
+    }
     .content {
         display: flex;
         flex-direction: column;
@@ -79,6 +82,9 @@ a {
     margin: 0 auto;
     margin-top: 1rem;
     width: 80vw;
+    p {
+        color: black;
+    }
 }
 
 .contact-container {
