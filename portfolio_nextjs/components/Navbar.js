@@ -9,7 +9,7 @@ const NavigationBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" variant="light">
             <Container>
-                <Navbar.Brand href="#home">Chun Ming Jimmy Man</Navbar.Brand>
+                <Navbar.Brand href="/">Chun Ming Jimmy Man</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav
