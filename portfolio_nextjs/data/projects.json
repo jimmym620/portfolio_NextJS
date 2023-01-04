@@ -25,7 +25,8 @@
         "tag": [
             "React",
             "Next.js",
-            "SASS"
+            "SASS",
+            "Frontends"
         ],
         "desc": "A Front-end restaurant menu application made with NextJS, the dish data is stored in JSON and can be conditionally rendered using react components. This was my first project using NextJS."
     },
@@ -39,6 +40,7 @@
         "tag": [
             "React",
             "CSS",
+            "Frontends",
             "Learning to use APIs"
         ],
         "desc": "Front-end project using React.js, data from the Weather API is fetched to display the current weather for a given location."
@@ -52,7 +54,8 @@
         "image": "/project-images/foogle.png",
         "tag": [
             "HTML",
-            "CSS"
+            "CSS",
+            "Frontends"
         ],
         "desc": "This was one of the projects where I practiced my CSS skills by replicating a responsive Google search page."
     },
@@ -65,7 +68,8 @@
         "image": "/project-images/mint_signup.png",
         "tag": [
             "HTML",
-            "CSS"
+            "CSS",
+            "Frontends"
         ],
         "desc": "Another vanilla CSS replication project - a sign up form for creating a new account."
     },
@@ -80,7 +84,8 @@
             "EJS",
             "Express.js",
             "MongoDB",
-            "Mongoose"
+            "Mongoose",
+            "Fullstack"
         ],
         "desc": "To do list app from 'The Complete 2023 Web Development Bootcamp', database is hosted using MongoDB Atlas and the Express.js app hosted on Cyclic"
     },
@@ -93,7 +98,8 @@
         "image": "/project-images/media_crud.png",
         "tag": [
             "Learning React",
-            "TailwindCSS"
+            "TailwindCSS",
+            "Frontends"
         ],
         "desc": "A CRUD Front-end which stores entries about a user's media library/collection (i.e, books, movies, music). Made with React, Tailwind and localStorage."
     },

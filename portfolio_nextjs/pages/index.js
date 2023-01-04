@@ -12,8 +12,12 @@ export default function Home() {
                     role.
                 </p>
 
-                <h2>Current tech stack:</h2>
+                <h1>Current tech stack:</h1>
                 <TechStack />
+
+                <h3>
+                    <a href="/projects">View my projects here</a>
+                </h3>
             </div>
         </div>
     );

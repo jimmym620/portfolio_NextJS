@@ -7,8 +7,7 @@ const Projects = () => {
         <div className="content-container animate__animated animate__slideInUp ">
             <h1 className="gradient-text">My projects</h1>
             <p>
-                Click the project names or images to view the hosted version of
-                the websites.
+                Click the project names or images to view the hosted versions.
             </p>
             <div className="project-list">
                 {projects.map((project, index) => {
