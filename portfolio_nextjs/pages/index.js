@@ -1,6 +1,7 @@
 import "animate.css";
 import TechStack from "../components/TechStack";
 
+import Link from "next/link";
 export default function Home() {
     return (
         <div className="content-container animate__animated animate__zoomIn">
@@ -16,7 +17,7 @@ export default function Home() {
                 <TechStack />
 
                 <h3>
-                    <a href="/projects">View my projects here</a>
+                    <Link href="/projects">View my projects here</Link>
                 </h3>
             </div>
         </div>
