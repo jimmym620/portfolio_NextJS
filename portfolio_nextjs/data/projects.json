@@ -11,7 +11,8 @@
             "Next-Auth",
             "Mongoose",
             "MongoDB Atlas",
-            "TailwindCSS"
+            "TailwindCSS",
+            "Vercel"
         ],
         "desc": "The first full-stack project I have worked on. This project taught me how to efficiently configure routes and APIs, as well as using asynchronous functions to fetch data to the user. Users can login (using their Google account, or any potential provider through Next-Auth) to post reviews, where they can be liked by other users, these reviews can also be deleted or edited through the author's dashboard. Hosted on Vercel."
     },

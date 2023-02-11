@@ -13,7 +13,7 @@ export default function Home() {
                     role.
                 </p>
 
-                <h1>Current tech stack:</h1>
+                <h1>Current tech stack/skills:</h1>
                 <TechStack />
 
                 <h3>
