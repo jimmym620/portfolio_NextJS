@@ -12,7 +12,7 @@ const Contact = () => {
                         target="_blank"
                     />
                     <SocialIcon
-                        url="https://www.linkedin.com/in/chun-ming-jimmy-man"
+                        url="https://www.linkedin.com/in/cmjman/"
                         target="_blank"
                     />
                 </div>
