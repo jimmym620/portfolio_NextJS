@@ -44,7 +44,7 @@
             "Frontends",
             "Learning to use APIs"
         ],
-        "desc": "Front-end project using React.js, data from the Weather API is fetched to display the current weather for a given location."
+        "desc": "Front-end project using React.js, data from the Weather API is fetched to display the current weather for a given location. Made using CRA (Create React App) and SASS"
     },
     {
         "id": 4,
