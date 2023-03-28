@@ -26,9 +26,9 @@ const NavigationBar = () => {
                         <Nav.Link href="/about" eventKey="/about">
                             About
                         </Nav.Link>
-                        <Nav.Link href="/contact" eventKey="/contact">
+                        {/* <Nav.Link href="/contact" eventKey="/contact">
                             Contact me
-                        </Nav.Link>
+                        </Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
